@@ -21,10 +21,10 @@ repository               : "jblevins32/jblevins32.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "pfp.png"
   name             : "Jacob Blevins"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Robotics & Controls"
+  bio              : "PhD Student in Mechanical Engineering Robotics & Control. Mechanical Design Lab & Facilities Coordinator at Georgia Institute of Technology. Atlanta Symphony Bass Vocalist."
   location         : "Atlanta, GA"
   employer         : "Georgia Institute of Technology"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=By0Ba08AAAAJ&hl=en"
   impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
