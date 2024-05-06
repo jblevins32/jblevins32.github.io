@@ -21,7 +21,7 @@ repository               : "jblevins32/jblevins32.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pfp.png"
+  avatar           : "pfp.jpg"
   name             : "Jacob Blevins"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Mechanical Engineering Robotics & Control. Mechanical Design Lab & Facilities Coordinator at Georgia Institute of Technology. Atlanta Symphony Bass Vocalist."
