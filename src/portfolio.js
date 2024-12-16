@@ -24,7 +24,7 @@ const greeting = {
   title: "Hello! I'm Jacob,",
   subTitle: (
     <>
-      a passionate educator and roboticist, eager to advance the human condition through the development of highly intelligent robotics.
+      a passionate roboticist, eager to advance the human condition through the development of highly intelligent robotics.
       {/* <br />      <br />
       Oh, and I love teaching robotics too. */}
     </>
@@ -63,9 +63,9 @@ const aboutMe = {
   <br /><br />
   My research focuses on securing networked robotics by exploring how adversaries might attack these systems; I develop novel methods with mathematical frameworks based in control theory, cybersecurity, and machine learning to defend against such attacks.
   <br /><br />
-  As much as I love research, I’m equally devoted to academia. I thrive on helping students navigate the complexities of robotics and control theory, sparking their curiosity, and fostering the next wave of engineers.
+  As much as I love research, I’m equally devoted to teaching. I thrive on helping students navigate the complexities of robotics and control theory, sparking their curiosity, and fostering the next wave of engineers.
   <br /><br /> When I'm not in the lab or classroom, I am singing as a bass vocalist for the Atlanta Symphony Orchestra Choir or with a jazz quartet... or I'm probably in the gym.
-  <br /><br /> Take a look around and feel free to contact me via the "Contact Me" tab, I'd love to get to know you!
+  <br /><br /> Take a look around and feel free to reach out via the "Contact Me" tab, I'd love to get to know you!
 
   {/* <br /> <br /> 💡  Affine Transformation-based Perfectly Undetectable False Data Injection Attacks on Remote Manipulator Kinematic Control with Attack Detector, 
   <br /><br /> 💡 Encrypted Model Reference Adaptive Control with False Data Injection Attack Resilience via Somewhat Homomorphic Encryption-Based Overflow Trap​, 
