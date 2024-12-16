@@ -30,7 +30,7 @@ const greeting = {
     </>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1yHYXYUIBkpd8-uZLQziNxRujTnPVBChv/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -113,10 +113,10 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "Gazebo",
         fontAwesomeClassname: "fas fa-home"
       },
-      {
-        skillName: "Isaac SIM",
-        fontAwesomeClassname: "fas fa-eye"
-      },
+      // {
+      //   skillName: "Isaac SIM",
+      //   fontAwesomeClassname: "fas fa-eye"
+      // },
       {
         skillName: "Robodk",
         fontAwesomeClassname: "fas fa-cogs"
@@ -147,10 +147,10 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "MATLAB/Simulink",
         fontAwesomeClassname: "fas fa-calculator"
       },
-      {
-        skillName: "docker",
-        fontAwesomeClassname: "fab fa-docker"
-      }
+      // {
+      //   skillName: "docker",
+      //   fontAwesomeClassname: "fab fa-docker"
+      // }
     ],
     "Machine Learning": [
       {
@@ -288,9 +288,9 @@ const workExperiences = {
       date: "December 2024 – Present",
       desc: "",
       descBullets: [
-        "Lecturing System Dynamics, Experimental Methods, Intro to Mechatronics, Computing Techniques, and Intro to Robotics",
-        "Integrating data science / ML into the mechanical engineering curriculum, bringing students into the modern world of AI for engineering",
-        "Undergraduage research advising"
+        "Lecturing System Dynamics, Experimental Methods, and Computing Techniques",
+        "Integrating ML techniques into the mechanical engineering curriculum, helping students understand how they can use data science to solve complex engineering problems",
+        "Managing undergraduate research and tutoring programs, bringing students to their full academic potential"
       ]
     },
     {
@@ -370,8 +370,8 @@ const bigProjects = { // This is under StartupProjects container
       footerLink: [
         {
           name1: "About",
-          url1: "https://github.com/jblevins32/NVIDIA_Hackathon",
-          name2: "Visit Repo",
+          url1: "https://www.openhackathons.org/s/siteevent/a0CUP00000rQtdU2AS/se000354",
+          name2: "Visit Repo (In Progress)",
           url2: "https://github.com/jblevins32/NVIDIA_Hackathon"
         }
         //  you can add extra buttons here.
@@ -380,63 +380,63 @@ const bigProjects = { // This is under StartupProjects container
     {
       image: require("./assets/images/yolo_cone_detection_sim.png"),
       projectName: "Autonomous Mobile Robot via Machine Learning",
-      projectDesc: "Development of autonomous, mobile robot ML algorithms that must navigate a Turtlebot3 through an environment to capture a care package",
+      projectDesc: "PPO, YOLOv8, K-means, and other ML algorithms collaborating to guide a Turtlebot3 through an unknown environment to capture a care package.",
       footerLink: [
         {
-          name1: "About",
-          url1: "",
+          name1: "Paper",
+          url1: "https://drive.google.com/file/d/1jaIncONsQz6vT9O9wu5v01NHebDZPQ_G/view?usp=sharing",
           name2: "Visit Repo",
           url2: "https://github.com/jblevins32/Autonomous_Mobile_Robot_via_Machine_Learning"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Custom Convolutional Neural Networks for Traffic Sign Detection and Localization",
-      projectDesc: "",
+      image: require("./assets/images/img_attentionyolo.jpg"),
+      projectName: "Building a Vision-Based Object Tracking Model for Autonomous Vehicles",
+      projectDesc: "Development of a custom vision-based deep perception model for object detection and tracking in road-way scenarios for autonomous vehicles. A study on how variations in model architecture such as the addition of attention or encoder-decoders affect the final inference for this task.",
       footerLink: [
         {
-          name1: "About",
-          url1: "",
+          name1: "Paper",
+          url1: "https://drive.google.com/file/d/1MRTCZ6oBk59E9YgXJN_5LrG2qpbGcri7/view?usp=sharing",
           name2: "Visit Repo",
-          url2: ""
+          url2: "https://github.com/jblevins32/Vision-Based-Object-Tracking-Model-for-Autonomous-Vehicles"
         }
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Manipulator Motion Planning with Intelligent Control",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name1: "About",
-          url1: "",
-          name2: "Visit Repo",
-          url2: ""
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/pattern_pfp.png"),
-      projectName: "Style Transfer Deep Learning Playground",
-      projectDesc: "Implementation of deep learning style transfer techniques with specialized style transfer loss functions with web interface image playground",
-      footerLink: [
-        {
-          name1: "About",
-          url1: "",
-          name2: "Visit Repo",
-          url2: ""
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Manipulator Motion Planning with Intelligent Control",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name1: "About",
+    //       url1: "",
+    //       name2: "Visit Repo",
+    //       url2: ""
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/pattern_pfp.png"),
+    //   projectName: "Style Transfer Deep Learning Playground",
+    //   projectDesc: "Implementation of deep learning style transfer techniques with specialized style transfer loss functions with web interface image playground",
+    //   footerLink: [
+    //     {
+    //       name1: "About",
+    //       url1: "",
+    //       name2: "Visit Repo",
+    //       url2: ""
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/robonav.png"),
       projectName: "RoboJackets - RoboNav Mars Rover Software Team",
-      projectDesc: "Motion planning subteam – Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition ",
+      projectDesc: "Motion planning subteam; Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition ",
       footerLink: [
         {
           name1: "About",
-          url1: "",
+          url1: "https://urc.marssociety.org/home",
           name2: "Visit Repo",
           url2: "https://github.com/RoboJackets"
         }
@@ -444,13 +444,13 @@ const bigProjects = { // This is under StartupProjects container
     },
     {
       image: require("./assets/images/slosh.png"),
-      projectName: "Liquid Sloshing Reduction via Input Shaping	",
+      projectName: "Liquid Sloshing Reduction via Input Shaping",
       projectDesc: "Input shaping of crane, double-pendulum, liquid system, reducing system modes to 5% of their original magnitude, saving factory workers from hazardous liquid sloshing ",
       footerLink: [
         {
-          name1: "About",
-          url1: "",
-          name2: "Visit Repo",
+          name1: "Paper",
+          url1: "https://drive.google.com/file/d/138AKk0rJvJKB8Gt7015BfxH7fno3F07A/view?usp=sharing",
+          name2: "No Repo Available",
           url2: ""
         }
       ]
@@ -461,8 +461,10 @@ const bigProjects = { // This is under StartupProjects container
       projectDesc: "Project lead for all-encompassing machining tutorial library",
       footerLink: [
         {
-          name1: "Training",
-          url1: "https://www.youtube.com/@gatech_ME_machining_mall",
+          name1: "About",
+          url1: "https://www.me.gatech.edu/montgomery-machining-mall",
+          name2: "Visit Training",
+          url2: "https://www.youtube.com/@gatech_ME_machining_mall"
         }
         //  you can add extra buttons here.
       ]
@@ -482,22 +484,22 @@ const research = {
     {
       title: "Affine Transformation-Based Perfectly Undetectable False Data Injection Attacks on Remote Manipulator Kinematic Control With Attack Detector",
       subtitle:
-        "This letter demonstrates the viability of perfectly undetectable affine transformation attacks against robotic manipulators where intelligent attackers can inject multiplicative and additive false data while remaining completely hidden from system users",
+        "This letter demonstrates the viability of perfectly undetectable affine transformation attacks against robotic manipulators where intelligent attackers can inject multiplicative and additive false data while remaining completely hidden from system users.",
       image: require("./assets/images/scale.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "",
       footerLink: [
         {
           name: "Publication",
-          url: "https://ieeexplore.ieee.org/document/10654498"
+          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10654498"
         }
       ]
     },
     {
       title: "Encrypted Model Reference Adaptive Control with False Data Injection Attack Resilience via Somewhat Homomorphic Encryption-Based Overflow Trap",
       subtitle:
-        "The presented research proposes an encrypted adaptive control framework that can be secured for cloud computing with encryption and without issues caused by encryption overflow and large execution delays.",
+        "This research proposes an encrypted adaptive control framework that can be secured for cloud computing with encryption and without issues caused by encryption overflow and large execution delays.",
       image: require("./assets/images/block_diagram.jpg"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "",
       footerLink: [
         {
           name: "Publication",
@@ -506,11 +508,24 @@ const research = {
       ]
     },
     {
+      title: "Encrypted Coordinate Transformation via Parallelized Somewhat Homomorphic Encryption for Robotic Teleoperation",
+      subtitle:
+        "This paper seeks to understand the viability of encrypted robot control. This objective is accomplished through encrypted control via Dyer’s somewhat homomorphic encryption scheme on multi and single threaded matrix transformations for telecommunicated movement commands between a virtual-reality joystick and a robot arm.",
+      image: require("./assets/images/URImage.PNG"),
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Publication",
+          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10196122"
+        }
+      ]
+    },
+    {
       title: "Deep Learning for the Existence of Perfectly Undetectable FDIA on Output-Feedback LTI Systems",
       subtitle:
-        "",
-      image: require("./assets/images/URImage.PNG"),
-      imageAlt: "Google Code-In Logo",
+        "System states and control inputs can be perfectly modified such that an observer sees no operational modifications, regardless of the plant's actual modified operations. This research aims to determine the nontrivial solutions for such an attack through pattern recognition with deep learning networks.",
+      image: require("./assets/images/deep_l_research.png"),
+      imageAlt: "",
       footerLink: [
         {
           name: "In Progress",
@@ -519,28 +534,15 @@ const research = {
       ]
     },
     {
-      title: "Encrypted Coordinate Transformation via Parallelized Somewhat Homomorphic Encryption for Robotic Teleoperation",
-      subtitle:
-        "This paper seeks to understand the viability of encrypted robot control. This objective is accomplished through encrypted control via Dyer’s somewhat homomorphic encryption scheme on multi and single threaded matrix transformations for telecommunicated movement commands between a virtual-reality joystick and a robot arm.",
-      image: require("./assets/images/URImage.PNG"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Publication",
-          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10196122"
-        }
-      ]
-    },
-    {
       title: "Developing AI-Powered Knowledge Assistants to Enhance User Experience in Makerspaces",
       subtitle:
         "A framework for implementation of AI chatbots in Makerspaces to keep makerspace users trained, equipped, and safer.",
       image: require("./assets/images/ISAM_2024_Blevins_Poster.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "",
       footerLink: [
         {
-          name: "Publication",
-          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10196122"
+          name: "Paper",
+          url: "https://drive.google.com/file/d/1hjkZQARhwEzgF-Men--d27ofM2BetxrS/view?usp=sharing"
         }
       ]
     }
@@ -614,15 +616,15 @@ const achievementSection = {
 const blogSection = {
   title: "Service & Organizations",
   subtitle:
-    "Being involved in the community is important!",
+    "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://research.gatech.edu/robotics",
-      title: "Institute for Robotics and Intelligent Machines",
-      description:
-        "Georgia Tech, faculty member"
-    },
+    // {
+    //   url: "https://research.gatech.edu/robotics",
+    //   title: "Institute for Robotics and Intelligent Machines",
+    //   description:
+    //     "Georgia Tech, faculty member"
+    // },
     {
       url: "https://www.ieee-ras.org/",
       title: "IEEE Robotics and Automation Society",
