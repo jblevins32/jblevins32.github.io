@@ -44,10 +44,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) { // for fixing the white space when on phone size
+    height:auto;
+  }
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
 .certificate-card-footer {

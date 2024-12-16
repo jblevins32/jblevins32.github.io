@@ -614,7 +614,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Service & Organizations",
+  title: "Service, Organizations, & Awards",
   subtitle:
     "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
@@ -652,6 +652,30 @@ const blogSection = {
     {
       url: "https://safety.me.gatech.edu/",
       title: "Interactive Learning Committee",
+      description:
+        "Georgia Tech - Mechanical Engineering"
+    },
+    {
+      url: "https://www.scoutspirit.org/",
+      title: "Eagle Scout",
+      description:
+        "Boy Scouts of America"
+    },
+    {
+      url: "",
+      title: "Highest Honors",
+      description:
+        "Bachelor's 4.0 GPA"
+    },
+    {
+      url: "https://www.me.gatech.edu/news/faculty-and-staff-recognized-annual-woodruff-school-awards",
+      title: "Professional Support Excellence",
+      description:
+        "Georgia Tech - Mechanical Engineering"
+    },
+    {
+      url: "",
+      title: "Culture Champion",
       description:
         "Georgia Tech - Mechanical Engineering"
     }
