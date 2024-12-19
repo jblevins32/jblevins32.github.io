@@ -106,7 +106,7 @@ https://fontawesome.com/icons?d=gallery */
   categories: {
     "Robotics": [
       {
-        skillName: "ROS",
+        skillName: "ROS2",
         fontAwesomeClassname: "fas fa-robot"
       },
       {
@@ -117,6 +117,10 @@ https://fontawesome.com/icons?d=gallery */
       //   skillName: "Isaac SIM",
       //   fontAwesomeClassname: "fas fa-eye"
       // },
+      {
+        skillName: "Gym",
+        fontAwesomeClassname: "fas fa-dumbbell"
+      },
       {
         skillName: "Robodk",
         fontAwesomeClassname: "fas fa-cogs"
@@ -140,7 +144,7 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fab fa-python"
       },
       {
-        skillName: "C++",
+        skillName: "C/C++",
         fontAwesomeClassname: "fas fa-code"
       },
       {
