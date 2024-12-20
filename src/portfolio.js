@@ -365,7 +365,7 @@ const openSource = {
 
 const bigProjects = { // This is under StartupProjects container
   title: "Projects",
-  subtitle: "Passion Projects!",
+  subtitle: "My passion lies in the development of novel control and perception models for autonomous robots!",
   projects: [
     {
       image: require("./assets/images/bboxes.jpg"),
@@ -396,8 +396,8 @@ const bigProjects = { // This is under StartupProjects container
     },
     {
       image: require("./assets/images/img_attentionyolo.jpg"),
-      projectName: "Building a Vision-Based Object Tracking Model for Autonomous Vehicles",
-      projectDesc: "Development of a custom vision-based deep perception model for object detection and tracking in road-way scenarios for autonomous vehicles. A study on how variations in model architecture such as the addition of attention or encoder-decoders affect the final inference for this task.",
+      projectName: "Vision-Based Object Tracking Models for Autonomous Vehicles",
+      projectDesc: "Development of custom vision-based deep perception models for object detection and tracking in road-way scenarios for autonomous vehicles with PyTorch. Developed end-to-end training and testing pipeline. A study on how variations in model architecture such as the addition of attention or encoder-decoders affect the final inference for this task.",
       footerLink: [
         {
           name1: "Paper",
@@ -408,15 +408,15 @@ const bigProjects = { // This is under StartupProjects container
       ]
     },
     // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Manipulator Motion Planning with Intelligent Control",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   image: require("./assets/images/2R.png"),
+    //   projectName: "Manipulator Motion Planning with Lagrangian Neural Networks",
+    //   projectDesc: "Comparison of data-driven neural network control with classical PD feedback control for manipulator lagrangian dynamics.",
     //   footerLink: [
     //     {
-    //       name1: "About",
+    //       name1: "No Paper",
     //       url1: "",
     //       name2: "Visit Repo",
-    //       url2: ""
+    //       url2: "https://github.com/jblevins32/Manipulator_Intelligent_Control"
     //     }
     //   ]
     // },
@@ -436,7 +436,7 @@ const bigProjects = { // This is under StartupProjects container
     {
       image: require("./assets/images/robonav.png"),
       projectName: "RoboJackets - RoboNav Mars Rover Software Team",
-      projectDesc: "Motion planning subteam; Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition ",
+      projectDesc: "Motion planning subteam; Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition.",
       footerLink: [
         {
           name1: "About",
