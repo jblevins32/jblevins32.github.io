@@ -113,18 +113,22 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "Gazebo",
         fontAwesomeClassname: "fas fa-home"
       },
-      // {
-      //   skillName: "Isaac SIM",
-      //   fontAwesomeClassname: "fas fa-eye"
-      // },
       {
-        skillName: "Gym",
+        skillName: "Isaac SIM",
+        fontAwesomeClassname: "fas fa-eye"
+      },
+      {
+        skillName: "OpenAI Gym",
         fontAwesomeClassname: "fas fa-dumbbell"
       },
       {
         skillName: "Robodk",
         fontAwesomeClassname: "fas fa-cogs"
       },
+      {
+        skillName: "OpenCV",
+        fontAwesomeClassname: "fas fa-camera"
+      }
       // {
       //   skillName: "SLAM",
       //   fontAwesomeClassname: "fas fa-map"
@@ -227,7 +231,7 @@ const educationInfo = {
       duration: "Summer 2024 - Fall 2026 (Expected)",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Coursework: Machine Learning, Artificial Intelligence, Deep Learning"
+        "Coursework: Machine Learning, Artificial Intelligence, Deep Learning, Robotics Research, Deep Reinforcement Learning, Multi-Robot Systems"
       ]
     },
     {
@@ -525,6 +529,19 @@ const research = {
       ]
     },
     {
+      title: "Defense Mechanisms Against Undetectable Cyberattacks on Telerobotic Systems",
+      subtitle:
+        "This research develops a two-detector mechanism for undetectable attack detection for a mobile robot and analyzes the strengths and weaknesses of both detectors in the covert attack and ATPA scenarios, resulting in a robust attack detection framework.",
+      image: require("./assets/images/photoTraj.png"),
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "In Progress",
+          url: ""
+        }
+      ]
+    },
+    {
       title: "Deep Learning for the Existence of Perfectly Undetectable FDIA on Output-Feedback LTI Systems",
       subtitle:
         "System states and control inputs can be perfectly modified such that an observer sees no operational modifications, regardless of the plant's actual modified operations. This research aims to determine the nontrivial solutions for such an attack through pattern recognition with deep learning networks.",
@@ -636,12 +653,6 @@ const blogSection = {
         "Graduate student member"
     },
     {
-      url: "https://robograds.gatech.edu/",
-      title: "RoboGrads",
-      description:
-        "Georgia Tech"
-    },
-    {
       url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
       title: "International Conference on Robotics and Automation",
       description:
@@ -654,10 +665,34 @@ const blogSection = {
         "Reviewer"
     },
     {
+      url: "https://www.firstinspires.org/robotics/frc",
+      title: "FIRST Robotics",
+      description:
+        "Software workshop lead"
+    },
+    {
+      url: "https://ctl.gatech.edu/tech-teaching",
+      title: "Tech to Teaching Graduate",
+      description:
+        "Georgia Tech's Teaching Program"
+    },
+    {
       url: "https://safety.me.gatech.edu/",
       title: "Interactive Learning Committee",
       description:
         "Georgia Tech - Mechanical Engineering"
+    },
+    {
+      url: "",
+      title: "Undergraduate Curriculum Committee",
+      description:
+        "Georgia Tech - Mechanical Engineering"
+    },
+    {
+      url: "https://robograds.gatech.edu/",
+      title: "RoboGrads",
+      description:
+        "Georgia Tech"
     },
     {
       url: "https://www.scoutspirit.org/",
