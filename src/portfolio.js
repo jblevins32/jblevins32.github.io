@@ -373,6 +373,20 @@ const bigProjects = { // This is under StartupProjects container
   projects: [
     {
       image: require("./assets/images/bboxes.jpg"),
+      projectName: "Reinforcement Learning Toolbox for Robot Locomotion",
+      projectDesc: "Tuning various RL algorithms for agent locomotion using OpenAI's Gym and MuJoCo environments.",
+      footerLink: [
+        {
+          name1: "About",
+          url1: "",
+          name2: "Visit Repo (In Progress)",
+          url2: "https://github.com/jblevins32/Reinforcement-Learning-Playground"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/bboxes.jpg"),
       projectName: "NVIDIA Open Hackathon: Language to Action",
       projectDesc: "Llama3.2 paired with YOLOworld to auto generate and execute code for pathing and control commands from human language. i.e. tell your robot what to do and it will do it!",
       footerLink: [
@@ -395,6 +409,19 @@ const bigProjects = { // This is under StartupProjects container
           url1: "https://drive.google.com/file/d/1jaIncONsQz6vT9O9wu5v01NHebDZPQ_G/view?usp=sharing",
           name2: "Visit Repo",
           url2: "https://github.com/jblevins32/Autonomous_Mobile_Robot_via_Machine_Learning"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bboxes.jpg"),
+      projectName: "Object Following Mobile Robot",
+      projectDesc: "Computer vision and LiDAR sensor fusion with OpenCV in ROS2 for object following.",
+      footerLink: [
+        {
+          name1: "No Paper",
+          url1: "",
+          name2: "Visit Repo",
+          url2: "https://github.com/jblevins32/IRR3_follow_object"
         }
       ]
     },
