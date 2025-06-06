@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.afe9a417.css",
-    "main.js": "/static/js/main.d96ef8f9.js",
+    "main.js": "/static/js/main.3dad2b98.js",
     "static/css/487.3fc29f3b.chunk.css": "/static/css/487.3fc29f3b.chunk.css",
     "static/js/487.7a3a7716.chunk.js": "/static/js/487.7a3a7716.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -13,10 +13,10 @@
     "static/media/ISAM_2024_Blevins_Poster.png": "/static/media/ISAM_2024_Blevins_Poster.6de8a9642f91996d12b1.png",
     "static/media/yolo_cone_detection_sim.png": "/static/media/yolo_cone_detection_sim.005b29f81e743f63cacf.png",
     "static/media/quad.png": "/static/media/quad.7d9c41cc824bdf15af28.png",
+    "static/media/Jacob Blevins -- Resume.pdf": "/static/media/Jacob Blevins -- Resume.730299c40670ac1ee0d9.pdf",
     "static/media/biped.png": "/static/media/biped.82d4dd129335bea82afb.png",
     "static/media/block_diagram.jpg": "/static/media/block_diagram.6169d21a5aac0ea72ba9.jpg",
     "static/media/MMM.jpg": "/static/media/MMM.040be9e86c1e9b49d560.jpg",
-    "static/media/Jacob Blevins -- Resume.pdf": "/static/media/Jacob Blevins -- Resume.c27606375e0559d6dbac.pdf",
     "static/media/Georgia-Tech-Seal.png": "/static/media/Georgia-Tech-Seal.c8823f25e3d6e0af62db.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/scale.png": "/static/media/scale.91150675092f1dd7c13b.png",
@@ -39,7 +39,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.afe9a417.css.map": "/static/css/main.afe9a417.css.map",
-    "main.d96ef8f9.js.map": "/static/js/main.d96ef8f9.js.map",
+    "main.3dad2b98.js.map": "/static/js/main.3dad2b98.js.map",
     "487.3fc29f3b.chunk.css.map": "/static/css/487.3fc29f3b.chunk.css.map",
     "487.7a3a7716.chunk.js.map": "/static/js/487.7a3a7716.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.afe9a417.css",
-    "static/js/main.d96ef8f9.js"
+    "static/js/main.3dad2b98.js"
   ]
 }
